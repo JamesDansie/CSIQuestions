@@ -7,7 +7,7 @@ public class Coins {
         while(amount >= 0) {
             // This for loop is assuming coins are in
             // ascending value. If not could use array sort
-            // to make sure
+            // to make sure they are ascending.
             for(int i = coins.length - 1; i >= 0; i--) {
 
                 // starts with the largest coin and loops down until

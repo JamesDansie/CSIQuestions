@@ -35,6 +35,7 @@ public class TreeBreadthFirst {
                 queue.add(tmp.right);
             }
 
+            // if it's not the end of the row, then add to queue.
             if(tmp.newRow == false) {
                 answer.get(depth).add(tmp);
             }
